@@ -1,0 +1,363 @@
+﻿/* Global reset is first */
+
+/*TMLG general style sheet for all pages */
+
+
+
+/* set box sizing for all pages*/
+/* create columns for dividing the page */
+*{
+    box-sizing: border-box;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid grey;
+}
+
+/* for mobile phones*/
+h1, h2, .headline {
+    font: goldenrod, bold;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+h3, h3, h4 {
+    color: darkred;
+}
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    font-size: 12px;
+    background-color: black;
+    height: 100%;
+}
+
+table {
+    width: 900px;
+    border: 4px;
+    margin: 10px
+}
+
+/*.sidebar::after {
+    content: "";
+    clear: right;
+}*/
+
+/* Common page elements styling*/
+.header {
+    float: left;
+    color: black;
+    background-color: #626262;
+    border: 6px solid #626262;
+    border-radius: 4px;
+    text-align: left;
+    padding: 15px;
+    width: 100%;
+    height: 20%;
+    margin: 5px;
+    font-size: 7vw;
+}
+
+#sidebar {
+    background-color: #626262;
+    border: 6px solid #626262;
+    border-radius: 4px;
+    text-align: center;
+    text-overflow: ellipsis;
+    padding: 5px;
+    height: 80%;
+    margin: 5px;
+    font-size: 2vw;
+    width: 5%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.maintext {
+    background-color: #626262;
+    border: 6px solid #626262;
+    border-radius: 4px;
+    text-align: left;
+    margin: 5px;
+    font-size: 1.5em;
+    float: left;
+    width: 90%;
+    height: 60%;
+    padding: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+p.reviewtext {
+    font-size: 1em;
+}
+.textpreview {
+    background-color: #626262;
+    border: 6px solid #1d1d1d;
+    border-radius: 4px;
+    text-align: left;
+    margin: 5px;
+    font-size: .75em;
+    float: left;
+    width: 90%;
+    height: 20%;
+    max-height: 300px;
+    padding: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.footer {
+    background-color: #626262;
+    border: 6px solid #626262;
+    border-radius: 4px;
+    float: left;
+    text-align: left;
+    padding: 5px;
+    width: 100%;
+    height: 10%;
+    max-height: 50px;
+    margin: 5px;
+    font-size: 1em;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #626262;
+    float: left;
+    border-radius: 4px;
+    margin: 5px;
+    width: 100%;
+    height: 10%;
+    font-size: 1em;
+    display: inline-block;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    width: auto;
+
+}
+.navitem {
+        display: inline-block;
+        color: darkred;
+        text-align: left;
+        padding: 10px 5px;
+        text-decoration: none;
+        font-size: 1em;
+}
+
+.storepanel {
+    background-color: #1d1d1d;
+    border: 6px solid #1d1d1d;
+    border-radius: 4px;
+    text-align: center;
+    margin: 5px;
+    font-size: 1em;
+    float: left;
+    width: 325px;
+    height: 400px;
+}
+
+a.prevpaneltext {
+    background-color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+
+}
+
+ li a:hover {
+        background-color: darkgoldenrod;
+        border-radius: 4px;
+}
+
+.active {
+        background-color: darkgoldenrod;
+        border-radius: 4px;
+}
+
+/* navmenu {
+    background-color: #626262;
+    border: 6px solid #626262;
+    border-radius: 4px;
+    float: left;
+    padding: 5px;
+    width: 100%;
+    height: 10%;
+    margin: 5px;
+    font-size: 1em; 
+    word-spacing: 6px;
+}
+
+*/
+
+img {
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+}
+
+img.articleright {
+    float: right;
+}
+
+img.articleleft {
+    float: left;
+}
+
+img.storepreview {
+    width: 300px;
+    height: 300px;
+    clear:both;
+}
+/* Form Styling*/
+form {
+    background-color: black;
+    font-size: 12px;
+    font-weight: 300;
+    border: none;
+}
+
+fieldset {
+    border: 5px solid #626262;
+    border-radius: 6px;
+}
+
+input[type=text] {
+    background-color: black;
+    color: antiquewhite;
+    border: none;
+    border-bottom: 1px solid #626262;
+    width: 200px;
+}
+
+select {
+    background-color: black;
+    color: antiquewhite;
+    border: 4px black;
+}
+
+.formtable {
+    text-align: left;
+    font-size: 12px;
+}
+
+
+/* Link styles */
+a:link {
+    color: darkred;
+    font-weight: 700;
+}
+
+a:visited {
+    color: chocolate;
+}
+
+
+/*for tablets*/
+@media only screen and (min-width: 768px) {
+
+    li a {
+        padding: 10px 16px;
+    }
+
+    .header {
+        font-size: 7vw;
+        max-height: 200px;
+        padding: 40px;
+    }
+
+    .navmenu{
+        font-size: 1.5em;
+        word-spacing: 30px;
+        max-height: 40px;
+    }
+
+    #sidebar{
+        width: 23%;
+        max-width: 250px;
+        max-height: calc(100% - 270px);
+    }
+
+    .maintext{
+        width:75%;
+    }
+
+    .menulist {
+        font-size: 1.5em;
+    }
+}
+    /*for all other devices*/
+@media only screen and (min-width: 1200px) {
+
+        .header {
+            font-size: 7em;
+        }
+    }
+
