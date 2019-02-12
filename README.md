@@ -9,5 +9,6 @@ It employs the following technical aspects:
   - Regular expressions to validate date
   - Loops and Arrays for input storage
 - CSS for styling, inline and external
-  - No frameworks used for design, all from scratch.
+  - Responsive resizing based on viewport size
+  - No frameworks used for design
 - PHP for form processing
